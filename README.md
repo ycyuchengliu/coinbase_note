@@ -2,17 +2,9 @@
 
 This repository is to showcase for the Coinbase Data Analyst Take Home Exam:
 
-The goal of this exercise is to answer a set of questions that are typical of analysts at Coinbase.
-Attached is a set of comma-separated files containing data for the following:
-
-Users, including an id, date the user signed up, and their risk score (a number assigned by our internal risk model).
-Accounts for those users, including the date the account was created, and currency
-Ledger Entries for these accounts; these are single-entry, indicating the date and amount by which the account changed.
-
-
 ---
 
-## Automated Control Testing
+### 1. Draw an entity-relationship diagram for the data. Indicate the cardinality of the relationships.
 
 This section of the repository focuses on automating controls testing in audit projects, specifically for change management processes. The automated scripts help audit teams run full population tests, ensuring that all changes in scope are covered without manual sampling.
 
