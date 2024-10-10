@@ -1,9 +1,14 @@
-# Internal Audit - Data Analytics
+# Internal Audit - Data Analytics - Take Home Exam
 
-This repository is to showcase for:
-1. **Automated Control Testing**: Support audit projects through automated control testing, such as full population testing for change management controls.
-2. **Data Pipeline**: Automatically extract data from Snowflake and transfer it to Google Sheets for streamlined reporting and analysis.
-3. **Code Review and Validation**: Ensure the quality and accuracy of all scripts through a structured code review process and validation checks.
+This repository is to showcase for the Coinbase Data Analyst Take Home Exam:
+
+The goal of this exercise is to answer a set of questions that are typical of analysts at Coinbase.
+Attached is a set of comma-separated files containing data for the following:
+
+Users, including an id, date the user signed up, and their risk score (a number assigned by our internal risk model).
+Accounts for those users, including the date the account was created, and currency
+Ledger Entries for these accounts; these are single-entry, indicating the date and amount by which the account changed.
+
 
 ---
 
