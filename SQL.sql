@@ -128,6 +128,7 @@ WITH user_crypto_accounts AS (
     LEFT JOIN 
         COINBASE.PUBLIC.LEDGER l ON a.account_id = l.account_id
     //WHERE U.USER_ID = '2e4781a5b1a1fdedda28cbe09b703857'
+    WHERE a.account_type = 'CryptoAccount'
     GROUP BY 1,2
     ORDER BY 1,2
 ),
